@@ -17,6 +17,20 @@ This repository contains three main folders
 ## Installation
 - MATLAB and Simulink Installation: Ensure MATLAB and Simulink are installed on your computer. If not, visit [the official MATLAB website](https://www.mathworks.com/) for installation instructions.
 - Save the Data Generator folder to your MATLAB/Simulink path.
-- Open the .slx file either from the MATLAB navigation sidebar or by running the command: open_system(LaneFollowingTestBenchExample)
+- Open the .slx file either from the MATLAB navigation sidebar or by running this MATLAB syntax:
+  ```Matlab
+  open_system("LaneFollowingTestBenchExample")
+  ```
 - The model contains three main subsystems: 1) a subsystem to estimate the lane center based on vision data, 2) a sensor fusion subsystem to process signals coming from the vehicle radar and camera, and finally, 3) a model predictive control (MPC) controller.
-- The default road is the S-shaped road. To change the selected road: 
+- The default road is the S-shaped road. You can choose from the following road name:
+    - 'Zigzag_edited'
+    - 'L_shaped'
+    - 'S_shaped'
+    - 'Oval_edited_clock'
+    - 'Oval_edited_counter'
+- To change the selected road, run this MATLAB syntax:
+    ```Matlab
+    helperLFSetUp('L_shaped');
+    ```
+
+
