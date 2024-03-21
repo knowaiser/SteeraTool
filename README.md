@@ -32,5 +32,8 @@ This repository contains three main folders
     ```Matlab
     helperLFSetUp('L_shaped');
     ```
+    Then run the .slx file.
 
+## Acknowledgement 
+We extend our gratitude to the creators and contributors of MATLAB for providing comprehensive examples and resources. This work is an adaptation of an existing example offered by MATLAB, which served as a foundational element in the development of our project. Their invaluable tools and examples have greatly facilitated our research efforts and enabled the advancements presented in this study.
 
