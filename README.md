@@ -37,3 +37,6 @@ This repository contains three main folders
 ## Acknowledgement 
 We extend our gratitude to the creators and contributors of MATLAB for providing comprehensive examples and resources. This work is an adaptation of an existing example offered by MATLAB, which served as a foundational element in the development of our project. Their invaluable tools and examples have greatly facilitated our research efforts and enabled the advancements presented in this study.
 
+## Support
+Should you require additional assistance with either the installation process or generating data, please don't hesitate to get in touch with us via email at: steeratool@gmail.com
+
